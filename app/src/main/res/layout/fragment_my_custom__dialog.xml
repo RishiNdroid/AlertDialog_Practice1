@@ -1,0 +1,31 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.rndroid.alertdialog_practice1.MyCustom_DialogFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <EditText
+        android:gravity="center"
+        android:id="@+id/ed1"
+        android:layout_width="match_parent"
+        android:hint="Enter email ID"
+        android:textSize="15sp"
+        android:layout_height="wrap_content"
+        />
+    <EditText
+        android:gravity="center"
+        android:id="@+id/ed2"
+        android:layout_width="match_parent"
+        android:hint="Enter Password"
+        android:textSize="15sp"
+        android:layout_height="wrap_content" />
+    <CheckBox
+        android:id="@+id/checkbox1"
+        android:layout_width="match_parent"
+        android:hint="Remember Me"
+        android:textSize="15sp"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
